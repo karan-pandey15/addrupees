@@ -1,0 +1,141 @@
+.track_status_slider[type="range"] {
+  height: 40px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+  background-color: #e7e5e5;
+}
+.track_status_slider[type="range"]:focus {
+  outline: none;
+}
+
+.track_status_slider[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 20px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #b6b6b6;
+  border-radius: 25px;
+  border: 1px solid #8a8a8a;
+}
+.track_status_slider[type="range"]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #828282;
+  border: 1px solid #8a8a8a;
+  height: 32px;
+  width: 34px;
+  border-radius: 7px;
+  background: #dadada;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+}
+
+.track_status_slider[type="range"]:focus::-webkit-slider-runnable-track {
+  background: #b6b6b6;
+}
+
+.track_status_slider[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 20px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #b6b6b6;
+  border-radius: 25px;
+  border: 1px solid #8a8a8a;
+}
+.track_status_slider[type="range"]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #828282;
+  border: 1px solid #8a8a8a;
+  height: 32px;
+  width: 34px;
+  border-radius: 7px;
+  background: #dadada;
+  cursor: pointer;
+}
+.track_status_slider[type="range"]::-ms-track {
+  width: 100%;
+  height: 20px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.track_status_slider[type="range"]::-ms-fill-lower {
+  background: #b6b6b6;
+  border: 1px solid #8a8a8a;
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px #000000;
+}
+.track_status_slider[type="range"]::-ms-fill-upper {
+  background: #b6b6b6;
+  border: 1px solid #8a8a8a;
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px #000000;
+}
+.track_status_slider[type="range"]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 1px 1px 1px #828282;
+  border: 1px solid #8a8a8a;
+  height: 32px;
+  width: 34px;
+  border-radius: 7px;
+  background: #dadada;
+  cursor: pointer;
+}
+.track_status_slider[type="range"]:focus::-ms-fill-lower {
+  background: #b6b6b6;
+}
+.track_status_slider[type="range"]:focus::-ms-fill-upper {
+  background: #b6b6b6;
+}
+
+.track_status_slider[type="range"][data-status="Eligible"]::-webkit-slider-runnable-track {
+  background: linear-gradient(
+    90deg,
+    #32cd32 0%,
+    #32cd32 25%,
+    #b6b6b6 25%,
+    #b6b6b6 100%
+  );
+}
+
+.track_status_slider[type="range"][data-status="Not Eligible"]::-webkit-slider-runnable-track {
+  background: linear-gradient(
+    90deg,
+    #ff0000 0%,
+    #ff0000 25%,
+    #b6b6b6 25%,
+    #b6b6b6 100%
+  );
+}
+
+.track_status_slider[type="range"][data-status="In Process"]::-webkit-slider-runnable-track {
+  background: linear-gradient(
+    90deg,
+    #ffd700 0%,
+    #ffd700 50%,
+    #b6b6b6 50%,
+    #b6b6b6 100%
+  );
+}
+
+.track_status_slider[type="range"][data-status="Approved"]::-webkit-slider-runnable-track {
+  background: linear-gradient(
+    90deg,
+    #4169e1 0%,
+    #4169e1 75%,
+    #b6b6b6 75%,
+    #b6b6b6 100%
+  );
+}
+
+.track_status_slider[type="range"][data-status="Disbursed"]::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #01f9c6 0%, #01f9c6 100%);
+}
+
+.track_status_slider[type="range"][data-status="Rejected"]::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #8b0000 0%, #8b0000 100%);
+}

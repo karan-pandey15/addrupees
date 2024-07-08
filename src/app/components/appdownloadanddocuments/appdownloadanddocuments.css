@@ -1,0 +1,19 @@
+@media screen and (max-width:900px) {
+    .download-app-image {
+        height: 400px !important;
+    }
+
+    .required-document-image {
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .download-app-image {
+        height: 200px !important;
+    }
+
+    .required-document-image {
+        height: 200px !important;
+    }
+}
