@@ -137,7 +137,7 @@ const About = () => {
                   <div className="card-body text-dark">
                     <h5 className="card-title "> Pradeep Mishra</h5>
                     <p className="card-text ">
-                      I'm Pradeep Mishra, an MBA graduate, and I'm like the
+                      I'm Mamta Rewar, an MBA graduate, and I'm like the
                       captain of a company called Addrupee, steering it towards
                       success.
                     </p>
