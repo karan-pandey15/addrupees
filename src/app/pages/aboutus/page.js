@@ -3,7 +3,7 @@ import Image from "next/image";
 import Navbar from "@/app/components/navbar/page";
 import TopNav from "@/app/components/topnav/page";
 import aboutImg from "../../../../public/aboutImg.png";
-import ceo_photo from "../../../../public/ceo_photo1.JPG";
+import ceo_photo from "../../../../public/ceopic.jpeg";
 import Footer from "@/app/components/footer/page";
 import ApplynowBtn from "@/app/components/applynowbtn/page";
 import "../../styles.css";
