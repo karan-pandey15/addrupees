@@ -214,20 +214,20 @@ const Footer = () => {
 
             <div className="col-md-5 offset-md-1 mb-3">
               <h2 style={{ color: "#3E9D7C" }}>Contact Details</h2>
-              <p className="text-white">AddRupee unit of Maras Impex</p>
+              <p className="text-white">AddRupee unit of CREDMIN MARKETPLACES PRIVATE LIMITED</p>
               <p className="text-white">
                 {" "}
                 <span style={{ color: "#3E9D7C", fontSize: "26px" }}>
                   <MdOutlineLocationOn />
                 </span>
                 G-13, sector 6 noida - 201301
-              </p>
-              <p className="text-white">
-                <span style={{ color: "#3E9D7C", fontSize: "26px" }}>
-                  <AiFillPhone />
-                </span>{" "}
-                +91 8887796224
-              </p>
+               </p>
+              // <p className="text-white">
+              //   <span style={{ color: "#3E9D7C", fontSize: "26px" }}>
+              //     <AiFillPhone />
+              //   </span>{" "}
+              //   +91 8887796224
+              // </p>
               <p className="text-white">
                 <span style={{ color: "#3E9D7C", fontSize: "26px" }}>
                   <TbDeviceLandlinePhone />
