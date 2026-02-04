@@ -222,12 +222,15 @@ const Footer = () => {
                 </span>
                 B-25, sector 2 noida - 201301
                </p>
-              // <p className="text-white">
-              //   <span style={{ color: "#3E9D7C", fontSize: "26px" }}>
-              //     <AiFillPhone />
-              //   </span>{" "}
-              //   +91 8887796224
-              // </p>
+            {/* 
+<p className="text-white">
+  <span style={{ color: "#3E9D7C", fontSize: "26px" }}>
+    <AiFillPhone />
+  </span>{" "}
+  +91 8887796224
+</p>
+*/}
+
               <p className="text-white">
                 <span style={{ color: "#3E9D7C", fontSize: "26px" }}>
                   <TbDeviceLandlinePhone />
