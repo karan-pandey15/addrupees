@@ -141,21 +141,7 @@ const About = () => {
                       captain of a company called Addrupee, steering it towards
                       success.
                     </p>
-                    <button
-                      className="py-2 px-2 button_class"
-                      style={{
-                        border: "none",
-                        borderRadius: "5px",
-                        backgroundColor: "#036E8C",
-                      }}
-                    >
-                      <Link
-                        style={{ textDecoration: "none", color: "white" }}
-                        href="/"
-                      >
-                        Read more
-                      </Link>
-                    </button>
+                  
                   </div>
                 </div>
               </div>
