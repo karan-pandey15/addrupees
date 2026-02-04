@@ -227,7 +227,7 @@ const Footer = () => {
   <span style={{ color: "#3E9D7C", fontSize: "26px" }}>
     <AiFillPhone />
   </span>{" "}
-  +91 8887796224
+  +91 9717699144
 </p>
 
 
