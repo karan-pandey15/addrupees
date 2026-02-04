@@ -220,7 +220,7 @@ const Footer = () => {
                 <span style={{ color: "#3E9D7C", fontSize: "26px" }}>
                   <MdOutlineLocationOn />
                 </span>
-                B-25, sector 2 noida - 201301
+                B-25, 2nd floor, Sector 2 Noida - 201301
                </p>
             {/* 
 <p className="text-white">
